@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <link rel="stylesheet" type="text/css" href="./1.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="/style.css" /> -->
+    <title>圣诞快乐</title>
+  </head>
+  <body>
+    <div class="hero">
+      <h1>圣诞快乐</h1>
+      <div class="review-box">
+        <div id="slide">
+          <div class="card">
+            <div class="profile">
+
+              <div>
+                <h3></h3>
+                <p>ki mi no ko to ga su ki de su</p>
+              </div>
+            </div>
+            <p>
+				你是我早上起来想的第一个人，也是我睡前想的最后一个人，甚至在无意忘记说晚安的夜晚中也会彻夜难眠；对不起，我这么多情绪一定会让你很累，我也不想的，可我太喜欢你了，也很害怕丢掉你。
+				
+              
+            </p>
+			  
+			  <p> -</p>
+			  
+			  <p>
+				  我太喜欢你了，不想让你生我气也不想让你觉得我不会说话表达，虽然这样但还是会经常踩雷；
+				  
+			  </p>
+			  <p> -</p>
+			  
+			  <p>我应该怎么表达，用宫崎骏的表达是"迷倒我的不是彩虹，而是站在我面前看彩虹的人" 用张爱玲的表达是"海上月是天上月，眼前人是心上人" 我的表达是"我喜欢你我爱你是很久很久的那种，是秋天过去了还有夏天、是琵琶酸甜的口感后还有回味的甘甜";</p>
+			  
+			  <p> -</p>
+			  
+			  <p>今年快结束了，好幸运，我遇到了你，我好喜欢</p>
+			  <p>-</p>
+			  
+			  
+			  <p>我好喜欢你我好爱你，每天都想抱抱你，真的很想每天每天每天能见到你</p>
+			  <p>-</p>
+			  <p>好幸运我们遇见了，圣诞快乐 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;圣诞快乐！</p>
+			  
+          </div>
+			
+			
+			
+		
+			
+          <div class="card">
+            <div class="profile">
+				
+              
+            </div>
+            <video src="./粒子圣诞树.mp4" height="300px"   controls="controls" poster="images\t3.jpg"></video>
+          </div>
+        </div>
+        <div class="sidebar">
+          <!-- <img src="/image/up-arrow.png" id="upArrow" /> -->
+          <div id="upArrow">↑</div>
+          <div id="downArrow">↓</div>
+        </div>
+			</div>
+          
+          <!-- <img src="/image/down-arrow.png" id="downArrow" /> -->
+        </div>
+      
+    
+    <script>
+      var slide = document.getElementById('slide')
+	  
+      var upArrow = document.getElementById('upArrow')
+	  
+      var downArrow = document.getElementById('downArrow')
+
+      let x = 0
+
+      upArrow.onclick = function () {
+        if (x < 0) {
+          x = x + 500
+          slide.style.top = x + 'px'
+        }
+      }
+      downArrow.onclick = function () {
+        if (x > -500) {
+          x = x - 500
+          slide.style.top = x + 'px'
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background: #f6fbff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 60px;
+  }
+
+  h1::after {
+    content: '';
+    width: 250px;
+    height: 3px;
+    background: linear-gradient(to right, #0780ed, #9f4db5);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+/*白框*/
+  .review-box {
+    width: 70%;
+    max-width: 1200px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25);
+    position: relative;
+    overflow: hidden;
+  }
+  #upArrow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+  }
+  #downArrow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+  }
+
+
+  .card {
+    height: 500px;
+    padding: 40px;
+    color: #111;
+    line-height: 22px;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .profile img {
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .profile h3 {
+    font-size: 26px;
+    color: #0780ed;
+    margin-bottom: 8px;
+  }
+
+  #slide {
+    width: 100%;
+    padding-right: 60px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+
+  .sidebar {
+    width: 60px;
+    height: 100%;
+    padding: 15px 0;
+    box-sizing: border-box;
+    background: #0780ed;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sidebar img {
+    width: 25px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
